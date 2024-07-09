@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">MonkeyMeals</string>
+
+    <string-array name="RestaurantName">
+        <item>Mc Donalds</item>
+        <item>PizzaHut</item>
+        <item>Subway</item>
+        <item>KFC</item>
+        <item>Burger King</item>
+        <item>Burger King</item>
+        <item>TacoBell</item>
+        <item>PizzaHut</item>
+
+    </string-array>
+
+    <string-array name="FoodName">
+        <item>McBurger</item>
+        <item>Beef Pizza</item>
+        <item>HotDog</item>
+        <item>12 pc Chicken Bucket</item>
+        <item>Chicken Burger</item>
+        <item>Chicken Crispy Burger</item>
+        <item>Chicken Taco</item>
+        <item>Beef Devil Pizza</item>
+
+    </string-array>
+
+    <string-array name="Price">
+        <item>Rs.700</item>
+        <item>Rs.1000</item>
+        <item>Rs.400</item>
+        <item>Rs.2500</item>
+        <item>Rs.700</item>
+        <item>Rs.1200</item>
+        <item>Rs.700</item>
+        <item>Rs.2000</item>
+
+    </string-array>
+</resources>

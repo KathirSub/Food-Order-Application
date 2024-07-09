@@ -1,0 +1,82 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.android.monkeymeals"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->C:\Users\sanjai\Documents\Mobile Application Development\Assignment1\MonkeyMeals-Final\MonkeyMeals\MonkeyMeals\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\sanjai\Documents\Mobile Application Development\Assignment1\MonkeyMeals-Final\MonkeyMeals\MonkeyMeals\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\sanjai\Documents\Mobile Application Development\Assignment1\MonkeyMeals-Final\MonkeyMeals\MonkeyMeals\app\src\main\AndroidManifest.xml:4:5-83
+11-->C:\Users\sanjai\Documents\Mobile Application Development\Assignment1\MonkeyMeals-Final\MonkeyMeals\MonkeyMeals\app\src\main\AndroidManifest.xml:4:22-64
+12
+13    <application
+13-->C:\Users\sanjai\Documents\Mobile Application Development\Assignment1\MonkeyMeals-Final\MonkeyMeals\MonkeyMeals\app\src\main\AndroidManifest.xml:6:5-35:19
+14        android:allowBackup="true"
+14-->C:\Users\sanjai\Documents\Mobile Application Development\Assignment1\MonkeyMeals-Final\MonkeyMeals\MonkeyMeals\app\src\main\AndroidManifest.xml:7:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.3.1] C:\Users\sanjai\.gradle\caches\transforms-2\files-2.1\ff37b710ecf84191a2687617c776753e\core-1.3.1\AndroidManifest.xml:24:18-86
+16        android:debuggable="true"
+17        android:extractNativeLibs="false"
+18        android:icon="@mipmap/ic_launcher"
+18-->C:\Users\sanjai\Documents\Mobile Application Development\Assignment1\MonkeyMeals-Final\MonkeyMeals\MonkeyMeals\app\src\main\AndroidManifest.xml:8:9-43
+19        android:label="@string/app_name"
+19-->C:\Users\sanjai\Documents\Mobile Application Development\Assignment1\MonkeyMeals-Final\MonkeyMeals\MonkeyMeals\app\src\main\AndroidManifest.xml:9:9-41
+20        android:roundIcon="@mipmap/ic_launcher_round"
+20-->C:\Users\sanjai\Documents\Mobile Application Development\Assignment1\MonkeyMeals-Final\MonkeyMeals\MonkeyMeals\app\src\main\AndroidManifest.xml:10:9-54
+21        android:supportsRtl="true"
+21-->C:\Users\sanjai\Documents\Mobile Application Development\Assignment1\MonkeyMeals-Final\MonkeyMeals\MonkeyMeals\app\src\main\AndroidManifest.xml:11:9-35
+22        android:testOnly="true"
+23        android:theme="@style/Theme.MonkeyMeals" >
+23-->C:\Users\sanjai\Documents\Mobile Application Development\Assignment1\MonkeyMeals-Final\MonkeyMeals\MonkeyMeals\app\src\main\AndroidManifest.xml:12:9-49
+24        <activity
+24-->C:\Users\sanjai\Documents\Mobile Application Development\Assignment1\MonkeyMeals-Final\MonkeyMeals\MonkeyMeals\app\src\main\AndroidManifest.xml:15:9-17:40
+25            android:name="com.android.monkeymeals.Activity.PopularActivity"
+25-->C:\Users\sanjai\Documents\Mobile Application Development\Assignment1\MonkeyMeals-Final\MonkeyMeals\MonkeyMeals\app\src\main\AndroidManifest.xml:16:13-53
+26            android:exported="false" />
+26-->C:\Users\sanjai\Documents\Mobile Application Development\Assignment1\MonkeyMeals-Final\MonkeyMeals\MonkeyMeals\app\src\main\AndroidManifest.xml:17:13-37
+27        <activity
+27-->C:\Users\sanjai\Documents\Mobile Application Development\Assignment1\MonkeyMeals-Final\MonkeyMeals\MonkeyMeals\app\src\main\AndroidManifest.xml:18:9-20:40
+28            android:name="com.android.monkeymeals.Activity.LoginActivity"
+28-->C:\Users\sanjai\Documents\Mobile Application Development\Assignment1\MonkeyMeals-Final\MonkeyMeals\MonkeyMeals\app\src\main\AndroidManifest.xml:19:13-51
+29            android:exported="false" />
+29-->C:\Users\sanjai\Documents\Mobile Application Development\Assignment1\MonkeyMeals-Final\MonkeyMeals\MonkeyMeals\app\src\main\AndroidManifest.xml:20:13-37
+30        <activity
+30-->C:\Users\sanjai\Documents\Mobile Application Development\Assignment1\MonkeyMeals-Final\MonkeyMeals\MonkeyMeals\app\src\main\AndroidManifest.xml:21:9-23:40
+31            android:name="com.android.monkeymeals.Activity.RegisterActivity"
+31-->C:\Users\sanjai\Documents\Mobile Application Development\Assignment1\MonkeyMeals-Final\MonkeyMeals\MonkeyMeals\app\src\main\AndroidManifest.xml:22:13-54
+32            android:exported="false" />
+32-->C:\Users\sanjai\Documents\Mobile Application Development\Assignment1\MonkeyMeals-Final\MonkeyMeals\MonkeyMeals\app\src\main\AndroidManifest.xml:23:13-37
+33        <activity android:name="com.android.monkeymeals.Activity.AfterOrderActivity" />
+33-->C:\Users\sanjai\Documents\Mobile Application Development\Assignment1\MonkeyMeals-Final\MonkeyMeals\MonkeyMeals\app\src\main\AndroidManifest.xml:24:9-65
+33-->C:\Users\sanjai\Documents\Mobile Application Development\Assignment1\MonkeyMeals-Final\MonkeyMeals\MonkeyMeals\app\src\main\AndroidManifest.xml:24:19-62
+34        <activity android:name="com.android.monkeymeals.Activity.TakeOrderActivity" />
+34-->C:\Users\sanjai\Documents\Mobile Application Development\Assignment1\MonkeyMeals-Final\MonkeyMeals\MonkeyMeals\app\src\main\AndroidManifest.xml:25:9-64
+34-->C:\Users\sanjai\Documents\Mobile Application Development\Assignment1\MonkeyMeals-Final\MonkeyMeals\MonkeyMeals\app\src\main\AndroidManifest.xml:25:19-61
+35        <activity android:name="com.android.monkeymeals.Activity.RestaurantMenuActivity" />
+35-->C:\Users\sanjai\Documents\Mobile Application Development\Assignment1\MonkeyMeals-Final\MonkeyMeals\MonkeyMeals\app\src\main\AndroidManifest.xml:26:9-69
+35-->C:\Users\sanjai\Documents\Mobile Application Development\Assignment1\MonkeyMeals-Final\MonkeyMeals\MonkeyMeals\app\src\main\AndroidManifest.xml:26:19-66
+36        <activity android:name="com.android.monkeymeals.Activity.FrontPageActivity" >
+36-->C:\Users\sanjai\Documents\Mobile Application Development\Assignment1\MonkeyMeals-Final\MonkeyMeals\MonkeyMeals\app\src\main\AndroidManifest.xml:27:9-33:20
+36-->C:\Users\sanjai\Documents\Mobile Application Development\Assignment1\MonkeyMeals-Final\MonkeyMeals\MonkeyMeals\app\src\main\AndroidManifest.xml:27:19-61
+37            <intent-filter>
+37-->C:\Users\sanjai\Documents\Mobile Application Development\Assignment1\MonkeyMeals-Final\MonkeyMeals\MonkeyMeals\app\src\main\AndroidManifest.xml:28:13-32:29
+38                <action android:name="android.intent.action.MAIN" />
+38-->C:\Users\sanjai\Documents\Mobile Application Development\Assignment1\MonkeyMeals-Final\MonkeyMeals\MonkeyMeals\app\src\main\AndroidManifest.xml:29:17-69
+38-->C:\Users\sanjai\Documents\Mobile Application Development\Assignment1\MonkeyMeals-Final\MonkeyMeals\MonkeyMeals\app\src\main\AndroidManifest.xml:29:25-66
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->C:\Users\sanjai\Documents\Mobile Application Development\Assignment1\MonkeyMeals-Final\MonkeyMeals\MonkeyMeals\app\src\main\AndroidManifest.xml:31:17-77
+40-->C:\Users\sanjai\Documents\Mobile Application Development\Assignment1\MonkeyMeals-Final\MonkeyMeals\MonkeyMeals\app\src\main\AndroidManifest.xml:31:27-74
+41            </intent-filter>
+42        </activity>
+43        <activity android:name="com.android.monkeymeals.Activity.MainActivity" />
+43-->C:\Users\sanjai\Documents\Mobile Application Development\Assignment1\MonkeyMeals-Final\MonkeyMeals\MonkeyMeals\app\src\main\AndroidManifest.xml:34:9-59
+43-->C:\Users\sanjai\Documents\Mobile Application Development\Assignment1\MonkeyMeals-Final\MonkeyMeals\MonkeyMeals\app\src\main\AndroidManifest.xml:34:19-56
+44    </application>
+45
+46</manifest>
